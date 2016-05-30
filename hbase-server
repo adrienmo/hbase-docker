@@ -10,7 +10,7 @@ mkdir -p $logs_dir /data/hbase /data/run
 # Thrift server (background)
 # Ports: 9090 API and 9095 UI
 echo "hbase thrift start logging to $logs_dir/hbase-thrift.log"
-hbase thrift start > $logs_dir/hbase-thrift.log 2>&1 &
+hbase thrift2 start > $logs_dir/hbase-thrift.log 2>&1 &
 
 # REST server (background)
 # Ports: 8080 API
