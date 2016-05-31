@@ -4,7 +4,7 @@
 
 # http://docs.docker.io/en/latest/use/builder/
 
-FROM ubuntu
+FROM ubuntu:trusty
 MAINTAINER Dave Beckett <dave@dajobe.org>
 
 COPY *.sh /build/
